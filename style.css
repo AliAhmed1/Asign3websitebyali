@@ -1,0 +1,331 @@
+body{
+
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    height: auto;
+    width: 100%;
+        
+
+    
+}
+
+.container{
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.container-fluid{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+#header-topper{
+
+    display: flex !important;
+    height: 50px;
+}
+
+
+
+#header-topper ul li img{
+
+    height: 15px;
+    width: 15px;
+    margin: auto 5px;
+    
+
+}
+
+#header-topper{
+
+    background-color: royalblue;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+#header-topper ul li {
+    display: inline-flex;
+
+}
+
+#header-topper .header-p{
+    display: inline-flex;
+    margin: 0px 20px;
+    color: ivory;
+   
+}
+
+
+#header-topper .donate-buttons{
+
+    display: inline-flex;
+    margin: 5px;
+
+}
+
+#header-topper .donate-buttons li button{
+    
+    font-size: 1em;
+    padding: 5px;
+    margin: auto 3px;
+    
+
+}
+
+
+
+#navi{
+    
+    background-color:  lavender;
+    /* overflow: hidden; */
+    position: sticky;
+    position: -webkit- sticky;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    height: 70px;
+}
+
+#navi ul{
+    
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navi .home{
+    color: white; 
+    font-size: 14px;   
+    background-attachment: fixed;
+}
+
+
+#navi img{
+    height: 50px !important;
+    width: 200px !important;
+    padding: 0px;
+    margin: 0px 130px 0px 5px;
+}
+
+#navi .ext{
+    display: flex;
+}
+
+
+#navi ul li{
+
+    margin: auto 10px;
+    /* padding: 10px auto 10px auto; */
+    /* display: flex;     */
+    text-decoration: none;
+    
+}
+
+
+#navi ul li a{
+    text-decoration: none;
+    color: black;
+    /* padding: 7px; */
+    font-size: 14px;
+
+
+}
+
+#navi .ext .nav-link:hover{
+    background-color:blue;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.main-image img{
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+.image-slide{
+    /* margin: auto 200px auto 200px; */
+    background-color: rgb(66, 66, 190);
+    color: white;
+    padding: 7px;
+    margin: 10px auto;
+}
+
+.introduction h1{
+    text-align: center;
+    margin-top: 40px;    
+}
+
+.introduction p{
+    overflow: hidden;
+}
+
+
+.calculation-div{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.calculation-div .info{
+
+    text-align: center;
+    color: white;
+}
+
+.calculation-div .info img{
+    width: 50px;
+    height: 50px;
+}
+
+.services{
+    /* margin: auto 200px auto 200px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 50px auto 50px auto;
+}
+
+
+
+ .services .row{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+     
+
+    
+.services .row .col{
+
+    
+    box-shadow: 0px 8px 20px 0px rgb(202, 202, 202);
+    margin: 5px;
+    padding: 30px;
+    background-color: honeydew;
+    color: blue;
+    
+}
+
+
+
+.mission-event-div{
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;  
+    margin: 50px auto 50px auto;
+}
+
+
+
+.mission{
+    margin: 20x auto;
+    
+}
+.mission .row .col button{
+
+    box-shadow: 0px 4px 20px 0px rgb(247, 247, 247);
+    border: none;
+    text-align: left;
+    height: 70px;
+    width: 250px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.mission{
+
+    /* text-align: left; */
+    padding: 15px;
+    margin: 15px;
+}
+
+.event{
+    /* text-align: left; */
+    margin: 20px auto;
+}
+
+.mission-event-div .event .event-marquee
+{
+    height: 200px;
+    width: 250px;
+}
+
+.image-gallery{
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.image-gallery img{
+    height: 140px;
+}
+
+footer{
+
+    height: 250px;
+    background-color: darkgrey;
+    margin: 150px 0px 0px 0px;
+    display: flex;
+}
+
+.footer-end{
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-end p{
+margin: auto;
+color: white;
+font-size: 0.7em;
+
+}
+
+.footer-top{
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.footer-top ul li{
+    color: white;
+}
+
+.footer-top .row .col img{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
